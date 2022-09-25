@@ -1,0 +1,62 @@
+* {
+  font-family: 'Mulish', Open-sans;
+}
+#sobre-mim {
+  width: 100%;
+  background-color: black;
+}
+
+.ajustador-2{
+  padding: 144px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 67px;
+  max-width: 1064px;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 45px;
+  color: white;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-me p {
+  text-indent: 30px;
+  font-size: 29px;
+  max-width: 609.25px;
+  color: white;
+} 
+
+/* Na largura de  largura máxima de 1200px eu quero.... */
+
+@media (max-width:1200px){
+  .ajustador {
+    justify-content: center;
+    text-align: center;
+  }
+
+h2 {
+  font-size: 30px;
+}
+
+.ajustador p {
+  font-size: 15px;
+} 
+
+.about-me p {
+  text-indent: 0;
+}
+}
+
+@media(max-width:950px){
+   .ajustador {
+      max-width: 350px;
+      padding: 70px 30px;
+   }
+}
